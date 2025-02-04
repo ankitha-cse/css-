@@ -1,0 +1,14 @@
+body{
+    background-image: url(download.jpg);
+    background-repeat: no-repeat;
+    background-size:1600px;
+    background-attachment: scroll;
+    
+    
+    
+
+}
+
+h1,p{
+    color: #ffff;
+}

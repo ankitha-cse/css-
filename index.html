@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css tags</title>
+    <link rel="stylesheet" href="style.css">
+    <style>h2{ color: chartreuse;
+    }</style>
+</head>
+<body>
+    <h1 style="color: blue;"> CSS-cascading style sheets</h1><hr>
+    <h1 >INLINE css binding</h1>
+    <p>we style in html code in the same line</p><hr>
+    <h2>INTERNAL-CSS style sheets</h2>
+    <p>we use style in head using style tag ans selctors like h2</p><hr>
+    <h3>EXTERNAL -CSS STYLE SHEETS</h2>
+    <p>we use another css file and link it with link tag and rel namae as stylesheets and href</p>
+<hr>
+<p> if we use three then<br> inline css will exicute inline only<br>
+but internal and external comes in same frame then external will exicuted<br>
+if we add important tag to external then it will exicute external only --!-important--</p><hr>
+<h3>selectors</h3>
+<p>we have 7 of them to run css<br>
+1.type selector used for normal task like h1 and selector name is in type selector and write code<br>
+2.class selector used for class elements and it start with a dot . classname and code <br>
+3.id selectpr used for id with # in start with id name <br>
+4.attribute selector used for attributes like href stylings written as a[attribute= example]<br>
+5.pseudo class selector are useed for changing state like hover and visted written as selector:pseudo class and code <br>
+6.combinaton selectors used for a batch of elements in a parent element written as parent> element and code all the elemths will change <br>
+7. universal selectors used for hole doc written as * and code
+</p><hr>
+<h3> properties in css</h3>
+<p>we have diffrent colour properties in css like<br>
+text colour,backgorund ,border </p>
+<p> for backgound image <a href="background.html" target="_blank">click</a></p>
+<hr>
+<h3>font in css</h3>
+<p style="font-family: 'Courier New', Courier, monospace; ">
+    font-family: with this u can use various fonts inbuid in os or u can use google  fonts
+like this <br>
+</p>
+<p style="font-size: 40px;">font-size: is used for size</p><hr>
+<p style="font-weight: bolder;">font-weight: for thickness</p><hr>
+<p style="font-style: oblique;"> font-style: for style like italic</p><hr>
+<p style="text-transform: uppercase;">text-transform: Changes the capitalization of the text. Options include uppercase, lowercase, and capitalize.</p><hr>
+<p style="text-decoration: underline;">text-decoration: Adds decorations to text, like underlines or strikethrough. Options include underline, overline, line-through.</p><hr>
+<p style="line-height: 5cm;">line-height: Sets the vertical space between lines of text. It can be defined as a number or a unit like em or px.</p><hr>
+<p style="letter-spacing: 0.5cm;">letter-spacing: Adjusts the space between characters in the text.</p><hr>
+<p style="color: blue;">color: Specifies the text color using various formats like color names, hexadecimal, or RGB values.</p><hr>
+<h3>google font uses</h3>
+<div class="font">
+   <p>
+    1. **Visit Google Fonts**: Go to the [Google Fonts website](https://fonts.google.com/).<br>
+2. **Browse and Select Fonts**: Browse through the font library, search for specific fonts, and select the ones you want to use.<br>
+3. **Add Fonts to Collection**: Click the "+" button next to the fonts you want to use to add them to your collection.<br>
+4. **Customize**: You can customize font weights and styles for each font in your collection.<br>
+5. **Get the Code**: Click the "Embed" tab, and you'll find the HTML and CSS code to include in your project.<br>
+
+   </p><hr>
+</div>
+<H3>text formatting</H3>
+<p style="text-align: center;">
+    text aligin is used to placeing text</p><hr>
+    <p style="text-indent: 10cm;">text indent is used to leave space</p><hr>
+    <p style="word-spacing: 2cm;">words  spacing for space between words</p><hr>
+    <p style="text-shadow: 3px 3px 2px pink;">text shadow is used for 3d we use to give values of offset-x,offset-y, blur radious,colour</p><hr>
+<h3>box model in css</h3>
+<p>box model image are:</p>
+<img src="box model.png" alt="box model">
+<p>css box model is a fundamental layout of the web page or content<br>
+1.margin : is the space between two contents<br>
+You can set margins for individual sides or all sides at once <br>
+>margin:10px<.<br>
+<hr>border:
+- the border surrounds the padding and content of an element.<br>
+- You can specify the border width, style, and color.<br>
+- The `border` property can be shorthand or you can set border properties individually<br>
+<hr>padding:
+- Padding is the space between the content and the element's border.<br>
+- You can set padding for individual sides (top, right, bottom, left) or all sides at once.
+<hr>Content:
+
+- The content area represents the actual content of the HTML element (e.g., text, images, or other media).
+<br>- The width and height of an element are determined by its content area.</p>
+<hr>
+<h2>border properties</h2>
+<p>1. `border-width`:
+    - Specifies the width of the border.<br>
+    - You can set the width individually for each side (top, right, bottom, left) or use the shorthand property to set all sides at once.
+<br>2. `border-style`:
+- Defines the style of the border, such as solid, dashed, dotted, double, etc.<br>
+3. `border-color`:
+    - Sets the color of the border.<br>
+    4. `border` (shorthand):
+    - Combines the `border-width`, `border-style`, and `border-color` properties into a single property for convenience.<br>
+    5. `border-radius`:
+    - Defines rounded corners for an element's border.<br>
+    - You can set the radius for each corner individually or as a single value for all corners
+<br>6. `border-image`:
+    - Allows you to use an image as a border, creating more complex border styles.
+  <br>  - You can specify the image source, slice, width, outset, and repeat values
+</p><hr>
+<h2>display properties</h2>
+<p>block: Elements are displayed as block-level elements, taking up the entire width of their parent container<br>
+    inline: Elements are displayed inline, taking up only as much width as necessary.<br>
+    inline-block: Combines properties of both block and inline elements, allowing you to set width, height, and maintain inline beha<br>
+    none: The element is not displayed, and it doesn't occupy any space within the layout</p>
+<hr>
+<!---flex,grid,visibility are pending-->
+<p>pending</p>
+<h3>felx box</h3>
+<P>flex box
+    <a href="flex.html">flex</a>
+  
+    
+
+</P>
+<h3>list styling</h3>
+<p><a target="_blank" href="list.html">list styling </a></p>
+<h3>table styling in css</h3>
+<a target="_blank" href="table.html">table styling</a>
+<h3>form styling in css</h3>
+<a target="_blank" href="form.html">form styling</a>
+<h3>layouts</h3>
+<a href="layout.css" target="_blank"> layouts and postion</a>
+
+</body>
+</html>

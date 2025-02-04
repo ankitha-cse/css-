@@ -1,0 +1,47 @@
+ul.a{
+    list-style-type: circle;
+}
+ol.c{
+    list-style-type: upper-roman;
+}
+ol.img{
+    list-style-image: url('boc.png') ;
+
+}
+ol.pointo{
+   list-style-position: outside;
+}
+ol.pointi{
+    list-style-position: inside;
+}
+ol.none{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+ul .imgstyle{
+    list-style: square inside url("list.jpg");
+}
+ol.pink {
+    background: #ff9999;
+    padding: 20px;
+  }
+  
+ul.blue {
+    background: #3399ff;
+    padding: 20px;
+    
+  }
+  
+  ol.pink li {
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 15px;
+  }
+  
+  ul.blue li {
+    background:#045ce9b6;
+    color: darkblue;
+    margin :5px;
+  }

@@ -1,0 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Playwrite+VN:wght@100..400&family=Rubik+Vinyl&display=swap');
+h1,h3{
+    color: blueviolet;
+    background-color: rgba(244, 142, 18, 0.83);
+    font-family: "Jersey 10", serif;
+
+}
+body{
+    background-color: rgba(228, 232, 12, 0.353);
+}
+.font{
+    font-family: "Playwrite VN", serif;
+}
